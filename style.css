@@ -1,0 +1,53 @@
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5; /* لون خلفية الصفحة */
+}
+
+#viewDiv {
+  border: 2px solid #dcdcdc; /* إضافة حدود بسيطة حول الخريطة */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* تأثير الظل حول الخريطة */
+}
+
+/* تخصيص مظهر أدوات المحرر */
+.esri-widget {
+  background-color: #ffffff; /* خلفية بيضاء لأدوات المحرر */
+  border-radius: 5px; /* زوايا دائرية لأدوات المحرر */
+  padding: 10px;
+}
+
+/* تخصيص الأزرار */
+.esri-button {
+  background-color: #0078d4; /* لون خلفية الأزرار */
+  color: white; /* لون النص في الأزرار */
+  border-radius: 3px; /* زوايا دائرية للأزرار */
+  padding: 8px 15px; /* إضافة padding للأزرار */
+}
+
+.esri-button:hover {
+  background-color: #005a9e; /* تغيير لون الخلفية عند المرور فوق الأزرار */
+}
+
+/* تخصيص النصوص داخل الحقول */
+.esri-form-element input[type="text"] {
+  border: 1px solid #ccc; /* حدود خفيفة للحقول النصية */
+  padding: 10px; /* إضافة padding للحقول النصية */
+  border-radius: 4px; /* زوايا دائرية للحقول */
+  width: 100%;
+}
+
+/* تخصيص نصوص الحقول التي تحتوي على قيم محوسبة */
+.esri-form-element input[readonly] {
+  background-color: #f0f0f0; /* تغيير لون الخلفية للحقول غير القابلة للتعديل */
+  color: #888; /* تغيير اللون النصي للحقول غير القابلة للتعديل */
+}
+
+/* تخصيص النصوص في رأس كل مجموعة */
+.esri-form-group > .esri-form-element-label {
+  font-weight: bold; /* جعل النصوص في الرأس عريضة */
+  color: #0078d4; /* تغيير لون النص إلى الأزرق */
+}
